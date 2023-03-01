@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.top-bar {
+
+    background-color: #ffff;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.icon {
+    display: flex;
+    gap: 30px;
+    margin-right: 20rem;
+    margin-left: 10rem;
+
+}
+
+.icon>a {
+    color: black;
+}
+
+.text {
+    color: rgb(177, 175, 175);
+
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    font-size: 15px;
+}
+
+button {
+
+    background-color: rgb(236, 236, 33);
+    padding: 20px 20px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+
+.search {
+    margin-right: 250px;
+}
+
+.image {
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.main-photo{
+    background-image: url(https://code.edu.az/wp-content/uploads/2022/04/Design_Web.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40rem;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+.main-photo ul li{
+    color: #fff;
+    display: flex;
+    display: inline-block;
+    margin-left: 10px;
+}
